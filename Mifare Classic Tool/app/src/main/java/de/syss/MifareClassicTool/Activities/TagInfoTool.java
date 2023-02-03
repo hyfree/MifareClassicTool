@@ -223,7 +223,9 @@ public class TagInfoTool extends BasicActivity {
                     Common.colorString(getString(R.string.text_atqa) + ":", hc),
                     "\n", atqa, "\n",
                     Common.colorString(getString(R.string.text_sak) + ":", hc),
-                    "\n", sak," ",cardType, "\n",
+                    "\n", sak, "\n",
+                    Common.colorString(getString(R.string.text_cardType) + ":", hc),
+                    "\n",cardType, "\n",
                     Common.colorString(getString(
                             R.string.text_ats) + ":", hc),
                     "\n", ats, "\n",

@@ -119,6 +119,7 @@
     <string name="text_rf_tech_14a">ISO/IEC 14443, Type A</string>
     <string name="text_atqa">ATQA</string>
     <string name="text_sak">SAK</string>
+    <string name="text_cardType">CardType</string>
     <string name="text_ats">ATS</string>
     <string name="text_tag_type_and_manuf">Tag Type and Manufacturer</string>
     <string name="text_tag_type_guess">\"Tag Type and Manufacturer\" might be
@@ -205,6 +206,7 @@
 
     <!-- Actions (Buttons, Checkboxs, etc. -->
     <string name="action_read_tag">Read Tag</string>
+    <string name="action_get_tag">Get Tag</string>
     <string name="action_write_tag">Write Tag</string>
     <string name="action_edit_tag_dump">Edit/Analyze Dump File</string>
     <string name="action_edit_key_dump">Edit/Add Key File</string>

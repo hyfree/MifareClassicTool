@@ -194,6 +194,7 @@
 
     <!-- Actions (Buttons, Checkboxs, etc. -->
     <string name="action_read_tag">读标签</string>
+    <string name="action_get_tag">识别卡片芯片类型</string>
     <string name="action_write_tag">写标签</string>
     <string name="action_edit_tag_dump">编辑/分析转储文件</string>
     <string name="action_edit_key_dump">编辑/新建密钥文件</string>

@@ -709,6 +709,10 @@ public class MainMenu extends Activity {
         Intent intent = new Intent(this, ReadTag.class);
         startActivity(intent);
     }
+    public void onShowGetTagChip(View view) {
+        Intent intent = new Intent(this, TagInfoTool.class);
+        startActivity(intent);
+    }
 
     /**
      * Show the {@link WriteTag}.
