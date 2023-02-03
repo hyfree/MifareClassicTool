@@ -193,6 +193,26 @@ public class TagInfoTool extends BasicActivity {
             }
 
             int hc = ContextCompat.getColor(this, R.color.blue);
+            String cardType="";
+            switch (sak){
+                case "08":
+                    cardType+="M1 Card";
+                    break;
+                case "20":
+                    cardType+="CPU Card";
+                    break;
+                case "28":
+                    cardType+="MF1 Card";
+                    break;
+                case "19":
+                    cardType +="ADEL Card";
+                    break;
+                default:
+                    cardType +="Card";
+                    break;
+
+            }
+
             genericInfo.setText(TextUtils.concat(
                     Common.colorString(getString(R.string.text_uid) + ":", hc),
                     "\n", uid, "\n",
@@ -203,7 +223,7 @@ public class TagInfoTool extends BasicActivity {
                     Common.colorString(getString(R.string.text_atqa) + ":", hc),
                     "\n", atqa, "\n",
                     Common.colorString(getString(R.string.text_sak) + ":", hc),
-                    "\n", sak, "\n",
+                    "\n", sak," ",cardType, "\n",
                     Common.colorString(getString(
                             R.string.text_ats) + ":", hc),
                     "\n", ats, "\n",
