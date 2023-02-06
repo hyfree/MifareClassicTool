@@ -201,8 +201,18 @@ public class TagInfoTool extends BasicActivity {
                 case "00":
                     cardType += "M0 Card";
                     break;
+                case "01":
                 case "08":
                     cardType += "M1 Card";
+                    break;
+                case "09":
+                    cardType += "MIFARE MINI Card";
+                    break;
+                case "10":
+                    cardType += "MIFARE Plus 2K Card";
+                    break;
+                case "11":
+                    cardType += "MIFARE Plus 4K Card";
                     break;
                 case "18":
                     cardType += "M4 Card";
@@ -213,11 +223,21 @@ public class TagInfoTool extends BasicActivity {
                 case "28":
                     cardType += "MF1 Card";
                     break;
+                case "38":
+                    cardType += "M4 Card";
+                    break;
+                case "88":
+                    cardType += "M1 Card";
+                    break;
                 case "19":
                     cardType += "ADEL Card";
                     break;
+                case "98":
+                case "B8":
+                    cardType += "MIFARE Pro 4K tag";
+                    break;
                 default:
-                    cardType += "Card";
+                    cardType += "Unknown Card";
                     break;
 
             }
