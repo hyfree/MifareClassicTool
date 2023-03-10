@@ -6,7 +6,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "de.syss.MifareClassicTool"
+        applicationId "github.hyfree.MifareCardTool"
         minSdk 19
         targetSdk 31
         versionCode 62

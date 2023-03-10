@@ -277,7 +277,7 @@ public class MainMenu extends Activity {
                         sharedEditor.putBoolean("show_donate_dialog", true);
                         sharedEditor.apply();
                     }
-                    createDonateDialog().show();
+                    //createDonateDialog().show();
                     mDonateDialogWasShown = true;
                 } else {
                     runStartUpNode(StartUpNode.HandleNewIntent);
@@ -815,7 +815,7 @@ public class MainMenu extends Activity {
                     (dialog, which) -> {
                         // Do nothing.
                     }).create();
-         ad.show();
+//         ad.show();
          // Make links clickable.
          ((TextView)ad.findViewById(android.R.id.message)).setMovementMethod(
                  LinkMovementMethod.getInstance());
